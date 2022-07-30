@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+title {
+    font-size: 25px;
+}
+
+h1{
+    color:whitesmoke;
+    text-align: center;
+}
+
+h2{
+    color:whitesmoke;
+    text-align: center;
+}
+
+h3{
+    color:azure;
+    text-align: center;
+}
+
+div{
+    line-height: 2.5px;
+    background-color:azure;
+    border-style:dotted;
+    text-align: left;
+    font-size: 15px;
+    font-family: Times New Roman;
+
+}
+
+.contact{
+    border: 3px dotted azure;
+}
+
+img src{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: azure;
+}
+
+.grabbing {cursor:grab}
