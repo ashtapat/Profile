@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 title {
@@ -7,38 +7,79 @@ title {
 }
 
 h1{
-    color:whitesmoke;
+    color:black;
     text-align: center;
 }
 
 h2{
-    color:whitesmoke;
+    color:white;
     text-align: center;
 }
 
 h3{
-    color:azure;
+    color:white;
     text-align: center;
 }
 
+
 div{
-    line-height: 2.5px;
-    background-color:azure;
-    border-style:dotted;
-    text-align: left;
-    font-size: 15px;
+    line-height: 20px;
+    background-color:white;
+    border-style:solid;
+    text-align: justify;
+    font-size: 20px;
     font-family: Times New Roman;
 
 }
 
+.about{
+    background-color: palevioletred;
+    height: 700px;
+    width: 700px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-family: times new roman;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.projects{
+    background-color: palevioletred;
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-family: times new roman;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
 .contact{
-    border: 3px dotted azure;
+    background-color: palevioletred;
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-family: times new roman;
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
 img src{
-    border-radius: 5px;
+    border-radius: 20px;
     border-style: solid;
-    border-color: azure;
+    border-color: green;
+    position: fixed; 
+    left: 50px; 
+    top:50px;
 }
 
 .grabbing {cursor:grab}
